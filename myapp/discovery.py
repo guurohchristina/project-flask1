@@ -1,5 +1,5 @@
+from . import app
 
-from myapp import app
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import os, re, pickle, difflib
@@ -173,3 +173,4 @@ if __name__ == "__main__":
 #         traceback.print_exc()
 
 #         return jsonify({"answer": "Sorry, something went wrong."})
+
