@@ -5,4 +5,5 @@ app = Flask(__name__)
 CORS(app)
 
 
-from dicovery import app
+from discovery import app
+
